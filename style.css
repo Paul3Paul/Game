@@ -1,0 +1,64 @@
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #hh
+  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    animation-name: head;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+  }
+
+  #btn
+  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .bb
+  {
+    color: black;
+    background-color: aqua;
+    border-radius: 51px;
+    height: 45px;
+    width: 125px;
+  }
+  @keyframes head
+  {
+    0%   {color: red;}
+    25%  {color: #21ced4;}
+    50%  {color: yellow;}
+    75%  {color: #cc0278;}
+    100%  {color: pink;}
+  }
+  .bb:hover
+  {
+    background-color: rgb(189, 206, 206);
+    color: red;
+    animation-name: head;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  body
+  {
+    background-image: url(hhh.webp);
+    background-size: cover;
+    background-position: center;
+    
+  }
